@@ -1,6 +1,6 @@
 {
   "homepage": "https://camch.github.io/pixelartgenerator",
-  "name": "pixelartcreator",
+  "name": "pixelartgenerator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
