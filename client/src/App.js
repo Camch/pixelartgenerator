@@ -1,16 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import UploadFile from "./components/UploadFile";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This site is under development.
-          Stay tuned...
-        </p>
-      </header>
+      <header className="App-header"> Pixel Art Generator </header>
+      <p> This is under development </p>
+      <div className="dropzone-section">
+        <UploadFile />{" "}
+      </div>
     </div>
   );
 }
